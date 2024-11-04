@@ -31,7 +31,7 @@ placemarkAttributes.labelAttributes.offset = new WorldWind.Offset(
 var position = new WorldWind.Position(55.0, -106.0, 100.0);
 var placemark = new WorldWind.Placemark(position, false, placemarkAttributes);
 
-placemark.label = "You are Gay\n" +
+placemark.label = "You are here!\n" +
     "Lat " + placemark.position.latitude.toPrecision(4).toString() + "\n" +
     "Lon " + placemark.position.longitude.toPrecision(5).toString();
 placemark.alwaysOnTop = true;
